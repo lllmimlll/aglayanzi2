@@ -37,9 +37,9 @@ public class CharController_Motor : MonoBehaviour {
 		}
 	}
 
-	void FixedUpdate()
+	void Flashlight()
     {
-		if (Input.GetKey(KeyCode.F))
+		if (Input.GetKeyDown(KeyCode.F))
 		{
 			if (flashlightOn == true)
 			{
@@ -52,7 +52,6 @@ public class CharController_Motor : MonoBehaviour {
 				flashlightOn = true;
 			}
 		}
-
 	}
 
 
@@ -68,6 +67,8 @@ public class CharController_Motor : MonoBehaviour {
 		//rotY = Input.GetKey (KeyCode.Joystick1Button5);
 
 		CheckForWaterHeight ();
+
+		Flashlight();
 
 		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
 
