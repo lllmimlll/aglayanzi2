@@ -54,6 +54,18 @@ public class CharController_Motor : MonoBehaviour {
 		}
 	}
 
+	void Running()
+    {
+		if (Input.GetKeyDown(KeyCode.LeftShift))
+		{
+			speed = speed*1.5f;
+		}
+		if (Input.GetKeyUp(KeyCode.LeftShift))
+		{
+			speed = 10.0f;
+		}
+	}
+
 
 	void Update(){
 		moveFB = Input.GetAxis ("Horizontal") * speed;
@@ -69,6 +81,10 @@ public class CharController_Motor : MonoBehaviour {
 		CheckForWaterHeight ();
 
 		Flashlight();
+
+		Running();
+		
+
 
 		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
 
