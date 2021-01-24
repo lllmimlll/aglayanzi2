@@ -10,6 +10,8 @@ public class CharController_Motor : MonoBehaviour {
 	CharacterController character;
 	public GameObject cam;
 	float moveFB, moveLR;
+	public GameObject flashlight;
+	private bool flashlightOn = false;
 	float rotX, rotY;
 	public bool webGLRightClickRotation = true;
 	float gravity = -9.8f;
@@ -22,8 +24,10 @@ public class CharController_Motor : MonoBehaviour {
 			webGLRightClickRotation = false;
 			sensitivity = sensitivity * 1.5f;
 		}
+		flashlightOn = false;
 	}
 
+	
 
 	void CheckForWaterHeight(){
 		if (transform.position.y < WaterHeight) {
@@ -33,11 +37,29 @@ public class CharController_Motor : MonoBehaviour {
 		}
 	}
 
+	void FixedUpdate()
+    {
+		if (Input.GetKey(KeyCode.F))
+		{
+			if (flashlightOn == true)
+			{
+				flashlight.SetActive(false);
+				flashlightOn = false;
+			}
+			else if (flashlightOn == false)
+			{
+				flashlight.SetActive(true);
+				flashlightOn = true;
+			}
+		}
+
+	}
 
 
 	void Update(){
 		moveFB = Input.GetAxis ("Horizontal") * speed;
 		moveLR = Input.GetAxis ("Vertical") * speed;
+
 
 		rotX = Input.GetAxis ("Mouse X") * sensitivity;
 		rotY = Input.GetAxis ("Mouse Y") * sensitivity;
@@ -47,10 +69,7 @@ public class CharController_Motor : MonoBehaviour {
 
 		CheckForWaterHeight ();
 
-
 		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
-
-
 
 		if (webGLRightClickRotation) {
 			if (Input.GetKey (KeyCode.Mouse0)) {
