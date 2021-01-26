@@ -24,7 +24,7 @@ public class PlayerDeath : MonoBehaviour
 
         if (MyMath.Equal(vCharacter, vSlenderman, maxOffset))
         {
-            character.gameObject.SetActive(false);
+            Destroy(character);
             //Debug.Log("Character and Objects are closer than maxOffset.");
         }
     }
