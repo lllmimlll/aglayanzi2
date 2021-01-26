@@ -378,7 +378,7 @@ PrefabInstance:
     - target: {fileID: 1010010733671478586, guid: c0ec2cd63f93487d92d6623d393c83ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1010010733671478586, guid: c0ec2cd63f93487d92d6623d393c83ba,
         type: 3}
@@ -6167,7 +6167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013412304362, guid: 2b7f7cd7ac6fcfc4eb1a46ce3aa1a968, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013412304362, guid: 2b7f7cd7ac6fcfc4eb1a46ce3aa1a968, type: 3}
       propertyPath: m_LocalScale.x
@@ -6236,7 +6236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4390481212675418, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4390481212675418, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
       propertyPath: m_LocalScale.x
@@ -6663,7 +6663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4063983631187228, guid: b7296d5515d23844b88668359d702859, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4063983631187228, guid: b7296d5515d23844b88668359d702859, type: 3}
       propertyPath: m_LocalScale.x
@@ -6793,6 +6793,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 318199264}
+--- !u!54 &1628265911
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628265907}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 64
+  m_CollisionDetection: 0
+--- !u!136 &1628265912
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628265907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.24981308
+  m_Height: 2.0289836
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.92084885, z: 0.02602768}
 --- !u!1001 &1671730896
 PrefabInstance:
   m_ObjectHideFlags: 0
