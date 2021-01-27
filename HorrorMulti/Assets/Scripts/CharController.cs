@@ -30,6 +30,7 @@ public class CharController : MonoBehaviour {
 				Time.timeScale = 0f;
 				pauseMenu.SetActive(true);
 				gamePaused = true;
+				Cursor.lockState = CursorLockMode.Confined;
 			} else if(gamePaused==true)
             {
 				ResumeGame();
@@ -43,6 +44,7 @@ public class CharController : MonoBehaviour {
 		pauseMenu.SetActive(false);
 		Time.timeScale = 1f;
 		gamePaused = false;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 
 	void Flashlight()
@@ -73,6 +75,11 @@ public class CharController : MonoBehaviour {
 			speed = 10.0f;
 		}
 	}
+
+	public void Exit()
+    {
+		Application.Quit();
+    }
 
 
 	void Update(){

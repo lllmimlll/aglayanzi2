@@ -1923,7 +1923,7 @@ GameObject:
   - component: {fileID: 5095522683804548581}
   - component: {fileID: 1077561347268347895}
   m_Layer: 0
-  m_Name: SurvivalOldHouse01_prefab
+  m_Name: Empty House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -36,6 +36,7 @@ public class PlayerDeath : MonoBehaviour
     {
         deathMenu.SetActive(true);
         Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     
