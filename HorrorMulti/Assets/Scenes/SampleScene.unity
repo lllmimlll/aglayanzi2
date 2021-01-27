@@ -357,6 +357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20216315665865056, guid: 84e1fb248c9ee584a85470162c251253,
         type: 3}
+      propertyPath: field of view
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 20216315665865056, guid: 84e1fb248c9ee584a85470162c251253,
+        type: 3}
       propertyPath: far clip plane
       value: 150
       objectReference: {fileID: 0}
@@ -522,6 +527,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ec2cd63f93487d92d6623d393c83ba, type: 3}
+--- !u!1 &222057428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1198389065402468, guid: 84e1fb248c9ee584a85470162c251253,
+    type: 3}
+  m_PrefabInstance: {fileID: 49120292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &222057430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222057428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb688c2ff20a1644a0aa29c3e493741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensivity: 50
+  playerBody: {fileID: 318199264}
+  max: 50
+  min: -70
 --- !u!1001 &279265842
 PrefabInstance:
   m_ObjectHideFlags: 0

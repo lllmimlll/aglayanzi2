@@ -79,9 +79,6 @@ public class CharController : MonoBehaviour {
 		moveFB = Input.GetAxis ("Horizontal") * speed;
 		moveLR = Input.GetAxis ("Vertical") * speed;
 
-		rotX = Input.GetAxis ("Mouse X") * sensitivity;
-		rotY = Input.GetAxis ("Mouse Y") * sensitivity;
-
 		Flashlight();
 
 		Running();
@@ -90,15 +87,7 @@ public class CharController : MonoBehaviour {
 		
 		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
 
-		CameraRotation(cam, rotX, rotY);
-
 		movement = transform.rotation * movement;
 		character.Move (movement * Time.deltaTime);
-	}
-
-
-	void CameraRotation(GameObject cam, float rotX, float rotY){		
-		transform.Rotate (0, rotX * Time.deltaTime, 0);
-		cam.transform.Rotate (-rotY * Time.deltaTime, 0, 0);
 	}
 }
