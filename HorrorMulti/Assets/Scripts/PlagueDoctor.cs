@@ -15,6 +15,6 @@ public class PlagueDoctor : MonoBehaviour
     void Update()
     {
         transform.LookAt(character);
-        transform.eulerAngles = new Vector3(0,transform.eulerAngles.y-20, transform.eulerAngles.z);
+        transform.eulerAngles = new Vector3(0,transform.eulerAngles.y-25, transform.eulerAngles.z);
     }
 }

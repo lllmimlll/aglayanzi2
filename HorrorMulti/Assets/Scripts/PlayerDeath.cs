@@ -8,8 +8,10 @@ public class PlayerDeath : MonoBehaviour
     // Start is called before the first frame update
     //public Animator _anim;
     public bool damageToGive = true;
-    public Transform Slenderman;
+    public Transform slenderman;
     public Transform character;
+    public GameObject deathMenu;
+    
 
     private void Start()
     {
@@ -24,10 +26,19 @@ public class PlayerDeath : MonoBehaviour
 
         if (MyMath.Equal(vCharacter, vSlenderman, maxOffset))
         {
-            Destroy(character);
-            //Debug.Log("Character and Objects are closer than maxOffset.");
+            //Destroy(character);
+            Debug.Log("Character and Objects are closer than maxOffset.");
+            DeathMenu();
         }
     }
+
+    void DeathMenu()
+    {
+        deathMenu.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    
 
     public static class MyMath
     {

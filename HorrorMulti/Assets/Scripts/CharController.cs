@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharController_Motor : MonoBehaviour {
+public class CharController : MonoBehaviour {
 
 	public float speed = 10.0f;
 	public float sensitivity = 30.0f;
@@ -15,6 +15,8 @@ public class CharController_Motor : MonoBehaviour {
 	float rotX, rotY;
 	public bool webGLRightClickRotation = true;
 	float gravity = -9.8f;
+	public GameObject pauseMenu;
+	private bool gamePaused = false;
 
 
 	void Start(){
@@ -24,7 +26,6 @@ public class CharController_Motor : MonoBehaviour {
 			webGLRightClickRotation = false;
 			sensitivity = sensitivity * 1.5f;
 		}
-		flashlightOn = false;
 	}
 
 	
@@ -35,6 +36,30 @@ public class CharController_Motor : MonoBehaviour {
 		} else {
 			gravity = -9.8f;
 		}
+	}
+
+	void PauseMenu()
+	{
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+			if (gamePaused == false)
+			{
+				Time.timeScale = 0f;
+				pauseMenu.SetActive(true);
+				gamePaused = true;
+			} else if(gamePaused==true)
+            {
+				ResumeGame();
+            }
+			
+		}
+	}
+
+	public void ResumeGame()
+    {
+		pauseMenu.SetActive(false);
+		Time.timeScale = 1f;
+		gamePaused = false;
 	}
 
 	void Flashlight()
@@ -83,6 +108,8 @@ public class CharController_Motor : MonoBehaviour {
 		Flashlight();
 
 		Running();
+
+		PauseMenu();
 		
 
 
