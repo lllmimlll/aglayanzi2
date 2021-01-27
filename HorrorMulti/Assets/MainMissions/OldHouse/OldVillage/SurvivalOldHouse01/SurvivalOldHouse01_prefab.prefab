@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4708143601145142}
   - component: {fileID: 33105905753156398}
   - component: {fileID: 23879164108683284}
+  - component: {fileID: 4026066454114122389}
   m_Layer: 0
   m_Name: LOD_02_DoorWood
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4026066454114122389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064563531294576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300046, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1126315821067582
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +105,7 @@ GameObject:
   - component: {fileID: 4929284215372530}
   - component: {fileID: 33642314674758590}
   - component: {fileID: 23142616818013596}
+  - component: {fileID: 1823489053781049943}
   m_Layer: 0
   m_Name: LOD_0_Metall03
   m_TagString: Untagged
@@ -158,6 +174,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1823489053781049943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126315821067582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300012, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1149873592959164
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +199,7 @@ GameObject:
   - component: {fileID: 4747431926666804}
   - component: {fileID: 33699268267525724}
   - component: {fileID: 23195959620139754}
+  - component: {fileID: 4095289325873048993}
   m_Layer: 0
   m_Name: LOD_02_WerandaWindows
   m_TagString: Untagged
@@ -237,6 +268,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4095289325873048993
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149873592959164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300052, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1184940379364764
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +293,7 @@ GameObject:
   - component: {fileID: 4602485016606360}
   - component: {fileID: 33425800964844086}
   - component: {fileID: 23741366576909278}
+  - component: {fileID: 4543042727964459894}
   m_Layer: 0
   m_Name: LOD_0_HouseWindows
   m_TagString: Untagged
@@ -316,6 +362,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4543042727964459894
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184940379364764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1272744696287120
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +387,7 @@ GameObject:
   - component: {fileID: 4562756319454902}
   - component: {fileID: 33318556950016704}
   - component: {fileID: 23923927476129952}
+  - component: {fileID: 966198311521255969}
   m_Layer: 0
   m_Name: LOD_0_HouseInterior
   m_TagString: Untagged
@@ -397,6 +458,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &966198311521255969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272744696287120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300008, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1295638750784766
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +483,7 @@ GameObject:
   - component: {fileID: 4291347507969376}
   - component: {fileID: 33540725675592078}
   - component: {fileID: 23421055118686914}
+  - component: {fileID: 4473587189238615715}
   m_Layer: 0
   m_Name: LOD_02_HouseWindows
   m_TagString: Untagged
@@ -476,6 +552,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4473587189238615715
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295638750784766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300038, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1315635775652980
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +577,7 @@ GameObject:
   - component: {fileID: 4634083279367376}
   - component: {fileID: 33349977774602684}
   - component: {fileID: 23894896098837542}
+  - component: {fileID: 5131823427268772277}
   m_Layer: 0
   m_Name: LOD_01_WerandaWindows
   m_TagString: Untagged
@@ -555,6 +646,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5131823427268772277
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315635775652980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300034, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1324579975813484
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,6 +671,7 @@ GameObject:
   - component: {fileID: 4699022685312620}
   - component: {fileID: 33374590883121774}
   - component: {fileID: 23048357420086144}
+  - component: {fileID: 3516479840534063351}
   m_Layer: 0
   m_Name: LOD_01_Metall03
   m_TagString: Untagged
@@ -634,6 +740,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3516479840534063351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324579975813484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300022, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1374618976384230
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +804,7 @@ GameObject:
   - component: {fileID: 4394201107724334}
   - component: {fileID: 33867433300795928}
   - component: {fileID: 23507368776811070}
+  - component: {fileID: 6460260184427279}
   m_Layer: 0
   m_Name: LOD_01_ZavalinkaWood
   m_TagString: Untagged
@@ -752,6 +873,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6460260184427279
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398744383448564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300030, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1403389823507892
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +898,7 @@ GameObject:
   - component: {fileID: 4609515960116680}
   - component: {fileID: 33979266272278720}
   - component: {fileID: 23546495561476376}
+  - component: {fileID: 1153639946433751025}
   m_Layer: 0
   m_Name: LOD_02_Metall03
   m_TagString: Untagged
@@ -831,6 +967,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1153639946433751025
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403389823507892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300040, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1411634906217288
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +992,7 @@ GameObject:
   - component: {fileID: 4005845562603494}
   - component: {fileID: 33993148195131054}
   - component: {fileID: 23562264653305080}
+  - component: {fileID: 3147245759579392002}
   m_Layer: 0
   m_Name: LOD_02_SrubWood
   m_TagString: Untagged
@@ -911,6 +1062,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3147245759579392002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411634906217288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300054, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1413498553271346
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +1087,7 @@ GameObject:
   - component: {fileID: 4563718593517084}
   - component: {fileID: 33140201001274452}
   - component: {fileID: 23278980953177764}
+  - component: {fileID: 1779423073003332344}
   m_Layer: 0
   m_Name: LOD_0_WerandaWindows
   m_TagString: Untagged
@@ -990,6 +1156,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1779423073003332344
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413498553271346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300018, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1415332074717188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1181,7 @@ GameObject:
   - component: {fileID: 4152677807950642}
   - component: {fileID: 33414339862388040}
   - component: {fileID: 23437667813360196}
+  - component: {fileID: 2929553516090047567}
   m_Layer: 0
   m_Name: LOD_0_DoorWood
   m_TagString: Untagged
@@ -1069,6 +1250,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2929553516090047567
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415332074717188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1427207880910184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1314,7 @@ GameObject:
   - component: {fileID: 4970062498154984}
   - component: {fileID: 33907326531544694}
   - component: {fileID: 23183699516095548}
+  - component: {fileID: 4576471863895560275}
   m_Layer: 0
   m_Name: LOD_02_Obreshetka_stropily
   m_TagString: Untagged
@@ -1188,6 +1384,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4576471863895560275
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458440231889504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300044, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1479465219671260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,6 +1409,7 @@ GameObject:
   - component: {fileID: 4584591112209218}
   - component: {fileID: 33888537246063124}
   - component: {fileID: 23952655796611526}
+  - component: {fileID: 4545484293801850608}
   m_Layer: 0
   m_Name: LOD_01_HouseWindows
   m_TagString: Untagged
@@ -1267,6 +1478,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4545484293801850608
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479465219671260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300020, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1524395900441830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1503,7 @@ GameObject:
   - component: {fileID: 4948980853008408}
   - component: {fileID: 33335487885907394}
   - component: {fileID: 23601020373185510}
+  - component: {fileID: 1927474904467959373}
   m_Layer: 0
   m_Name: LOD_02_ZavalinkaWood
   m_TagString: Untagged
@@ -1346,6 +1572,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1927474904467959373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524395900441830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300048, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1538974187357688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1597,7 @@ GameObject:
   - component: {fileID: 4654605070355910}
   - component: {fileID: 33328406945190518}
   - component: {fileID: 23610792490912510}
+  - component: {fileID: 441224298656309380}
   m_Layer: 0
   m_Name: LOD_0_WerandaWood
   m_TagString: Untagged
@@ -1426,6 +1667,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &441224298656309380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538974187357688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300016, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1557726994942572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,6 +1692,7 @@ GameObject:
   - component: {fileID: 4569122981257330}
   - component: {fileID: 33158360306327616}
   - component: {fileID: 23302599564275536}
+  - component: {fileID: 1899700626260564435}
   m_Layer: 0
   m_Name: LOD_01_DoorWood
   m_TagString: Untagged
@@ -1505,6 +1761,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1899700626260564435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557726994942572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1615992377755722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1825,7 @@ GameObject:
   - component: {fileID: 4192565055916682}
   - component: {fileID: 33829915689721868}
   - component: {fileID: 23215449406465086}
+  - component: {fileID: 3702724910488870115}
   m_Layer: 0
   m_Name: LOD_01_SrubWood
   m_TagString: Untagged
@@ -1624,6 +1895,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3702724910488870115
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646779769903548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300036, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1667885095536142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,6 +2069,7 @@ GameObject:
   - component: {fileID: 4167257946041958}
   - component: {fileID: 33656667077957976}
   - component: {fileID: 23426898488014220}
+  - component: {fileID: 3080613327066252253}
   m_Layer: 0
   m_Name: LOD_01_HouseInterior
   m_TagString: Untagged
@@ -1854,6 +2140,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3080613327066252253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693633287523976}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300032, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1801436080218234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +2165,7 @@ GameObject:
   - component: {fileID: 4746110387570004}
   - component: {fileID: 33635941250266722}
   - component: {fileID: 23628857750963464}
+  - component: {fileID: 2675511321099597650}
   m_Layer: 0
   m_Name: LOD_02_WerandaWood
   m_TagString: Untagged
@@ -1933,6 +2234,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2675511321099597650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801436080218234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300042, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1818305758079578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,6 +2259,7 @@ GameObject:
   - component: {fileID: 4296963851191600}
   - component: {fileID: 33688354749444544}
   - component: {fileID: 23215184795830522}
+  - component: {fileID: 3698066630238283966}
   m_Layer: 0
   m_Name: LOD_0_SrubWood
   m_TagString: Untagged
@@ -2013,6 +2329,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3698066630238283966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818305758079578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1860739784822904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,6 +2354,7 @@ GameObject:
   - component: {fileID: 4281556514851698}
   - component: {fileID: 33228363533203302}
   - component: {fileID: 23720224138650114}
+  - component: {fileID: 243501201077146244}
   m_Layer: 0
   m_Name: LOD_01_Obreshetka_stropily
   m_TagString: Untagged
@@ -2093,6 +2424,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &243501201077146244
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860739784822904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300026, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1909912721350434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2449,7 @@ GameObject:
   - component: {fileID: 4749587613592510}
   - component: {fileID: 33940966833722266}
   - component: {fileID: 23505713652696400}
+  - component: {fileID: 1494245542799211202}
   m_Layer: 0
   m_Name: LOD_0_ZavalinkaWood
   m_TagString: Untagged
@@ -2173,6 +2519,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1494245542799211202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909912721350434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300014, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1942079366269288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,6 +2544,7 @@ GameObject:
   - component: {fileID: 4767408882273244}
   - component: {fileID: 33662886884930654}
   - component: {fileID: 23693044142409962}
+  - component: {fileID: 8119393927542125038}
   m_Layer: 0
   m_Name: LOD_02_HouseInterior
   m_TagString: Untagged
@@ -2253,6 +2614,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8119393927542125038
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942079366269288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300050, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1948774891478956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,6 +2639,7 @@ GameObject:
   - component: {fileID: 4052454126646374}
   - component: {fileID: 33134769037036082}
   - component: {fileID: 23342881401855036}
+  - component: {fileID: 1174191681016051422}
   m_Layer: 0
   m_Name: LOD_01_WerandaWood
   m_TagString: Untagged
@@ -2333,6 +2709,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1174191681016051422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948774891478956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300024, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
 --- !u!1 &1955142079556458
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2734,7 @@ GameObject:
   - component: {fileID: 4531721057112716}
   - component: {fileID: 33664885238943168}
   - component: {fileID: 23275808629503700}
+  - component: {fileID: 8416154263273566359}
   m_Layer: 0
   m_Name: LOD_0_Obreshetka_stropily
   m_TagString: Untagged
@@ -2414,3 +2805,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8416154263273566359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955142079556458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300010, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
