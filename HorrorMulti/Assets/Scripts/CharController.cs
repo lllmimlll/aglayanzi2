@@ -5,37 +5,20 @@ using UnityEngine;
 public class CharController : MonoBehaviour {
 
 	public float speed = 10.0f;
-	public float sensitivity = 30.0f;
-	public float WaterHeight = 15.5f;
+	public float sensitivity = 50.0f;
 	CharacterController character;
 	public GameObject cam;
 	float moveFB, moveLR;
-	public GameObject flashlight;
-	private bool flashlightOn = false;
 	float rotX, rotY;
-	public bool webGLRightClickRotation = true;
 	float gravity = -9.8f;
-	public GameObject pauseMenu;
 	private bool gamePaused = false;
+	private bool flashlightOn = false;
+	public GameObject flashlight;
+	public GameObject pauseMenu;
 
 
 	void Start(){
-		//LockCursor ();
 		character = GetComponent<CharacterController> ();
-		if (Application.isEditor) {
-			webGLRightClickRotation = false;
-			sensitivity = sensitivity * 1.5f;
-		}
-	}
-
-	
-
-	void CheckForWaterHeight(){
-		if (transform.position.y < WaterHeight) {
-			gravity = 0f;			
-		} else {
-			gravity = -9.8f;
-		}
 	}
 
 	void PauseMenu()
@@ -96,14 +79,8 @@ public class CharController : MonoBehaviour {
 		moveFB = Input.GetAxis ("Horizontal") * speed;
 		moveLR = Input.GetAxis ("Vertical") * speed;
 
-
 		rotX = Input.GetAxis ("Mouse X") * sensitivity;
 		rotY = Input.GetAxis ("Mouse Y") * sensitivity;
-
-		//rotX = Input.GetKey (KeyCode.Joystick1Button4);
-		//rotY = Input.GetKey (KeyCode.Joystick1Button5);
-
-		CheckForWaterHeight ();
 
 		Flashlight();
 
@@ -111,17 +88,9 @@ public class CharController : MonoBehaviour {
 
 		PauseMenu();
 		
-
-
 		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
 
-		if (webGLRightClickRotation) {
-			if (Input.GetKey (KeyCode.Mouse0)) {
-				CameraRotation (cam, rotX, rotY);
-			}
-		} else if (!webGLRightClickRotation) {
-			CameraRotation (cam, rotX, rotY);
-		}
+		CameraRotation(cam, rotX, rotY);
 
 		movement = transform.rotation * movement;
 		character.Move (movement * Time.deltaTime);
@@ -132,8 +101,4 @@ public class CharController : MonoBehaviour {
 		transform.Rotate (0, rotX * Time.deltaTime, 0);
 		cam.transform.Rotate (-rotY * Time.deltaTime, 0, 0);
 	}
-
-
-
-
 }
